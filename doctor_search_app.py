@@ -55,5 +55,4 @@ class DoctorSearchApp:
     def load_doctors(self):
         return self.load_doctors_from_github() if self.use_github else self.load_doctors_from_local()
 
-    # Other methods unchanged ...
-    # Make sure 'Doctor Name' key use matches cleaned header
+    # You can add other search, autocomplete, or formatting methods below, ensuring they use the cleaned keys consistently.
